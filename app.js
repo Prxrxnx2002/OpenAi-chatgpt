@@ -32,11 +32,11 @@ server.on('request', async (req, res) => {
   // Extract the query parameters
   let { text } = querystring.parse(parsedUrl.query);
 
-  // let query = 'modify this sentence with respect to what work you have done: ';
+  let query = 'modify this sentence with respect to what work you have done: ';
 
   // let query = 'explain the following task with respect to what work you have done: ';
 
-  let query = 'you are  logging the work you have done during the day in the office time tracker. you need to add a comment in end explaining the task you have performed. what should i write for the following task: ';
+  // let query = 'you are  logging the work you have done during the day in the office time tracker. you need to add a comment in end explaining the task you have performed. what should i write for the following task: ';
 
   // let query = 'you are  logging the work you have done during the day in the office time tracker. you need to add a comment in end explaining the task you have performed. write a comment for the following task: ';
 
@@ -58,10 +58,10 @@ server.on('request', async (req, res) => {
 
   // Send the JSON response
   res.end(JSON.stringify(response));
+
   }catch(err){
     console.log(err);
     res.statusCode = 500;
     res.end("Something went wrong");
-    return;
   }
 });
