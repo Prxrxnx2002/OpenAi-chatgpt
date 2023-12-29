@@ -1,0 +1,17 @@
+###1st
+http://127.0.0.1:3001/generate?text=bug fixing
+
+###2nd
+http://127.0.0.1:3001/generate?text=self learning
+
+###3rd
+http://127.0.0.1:3001/generate?text=project understanding
+
+###4th
+http://127.0.0.1:3001/generate?text=load testing
+
+###5th
+http://127.0.0.1:3001/generate?text=worked on the ui for the neilson project
+
+###6th
+http://127.0.0.1:3001/generate?text=ui changes for the neilson project
